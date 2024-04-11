@@ -3,6 +3,20 @@
     font-weight: 700;
 }
 .navbar-list-container {
-    font-family: "tabler-gothic", sans-serif;
+    font-family: "tablet-gothic", sans-serif;
     font-weight: 300;
 }
+/* Hide carousel caption on extra small screens (less than 576px) - Optional */
+@media (max-width: 575.99px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  .carousel-caption {
+    font-family: "tablet-gothic", sans-serif;
+    font-weight: 300;
+  }
+  .carousel-caption h1 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 900;
+  }
