@@ -24,7 +24,7 @@
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 700;
   }
-.who h3 {
+.who h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +34,7 @@
     padding: 2rem;
 
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     color: #fcfcf7;
 }
 .container-who {
@@ -49,7 +49,7 @@
     align-items: center;
     flex-direction: row;
 }
-.container-text h2 {
+.container-text h3 {
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 700;
 }
