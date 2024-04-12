@@ -24,45 +24,14 @@
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 700;
   }
-.who h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    padding: 2rem;
-
+  .card-text {
+    padding-left: 1rem;
+    color: white;
+    font-family: "tablet-gothic",sans-serif;
+ }
+ .card-title h5 {
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 700;
-    color: #fcfcf7;
-}
-.container-who {
-    margin-top: -1rem;
-}
-.more-info {
+    color: white;
     text-align: center;
-}
-.container-text {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-}
-.container-text h3 {
-    font-family: "itc-avant-garde-gothic-pro", sans-serif;
-    font-weight: 700;
-}
-.container-text p {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    text-align: justify;
-}
-.col-sm {
-    text-align: center;
-}
-.explore    {
-    margin-bottom: 2rem;
-}
+ }
