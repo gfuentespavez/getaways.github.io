@@ -24,14 +24,21 @@
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 700;
   }
-  .card-text {
-    padding-left: 1rem;
+  .body-text p {
     color: white;
     font-family: "tablet-gothic",sans-serif;
+
  }
- .card-title h5 {
+ .card-body h4 {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+ }
+ .header-body h1 {
     font-family: "itc-avant-garde-gothic-pro", sans-serif;
     font-weight: 700;
     color: white;
-    text-align: center;
+    font-size: xx-large;
  }
