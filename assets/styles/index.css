@@ -6,8 +6,8 @@
     font-weight: 700;
 }
 .navbar.solid-bg {
-  background-color: #252825; /* Replace #yourColor with your desired background color */
-  transition: background-color 0.3s ease; /* Add smooth transition */
+  background-color: #222223;
+  transition: background-color 0.7s ease;
 }
 
 .navbar-list-container {

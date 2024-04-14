@@ -14,7 +14,7 @@
       <!--navbar-->
       <nav class="navbar navbar-expand-lg fixed-top">
          <div class=" px-lg-5 nav-container container-fluid ">
-            <a class="navbar-brand head_viajeschile d-none d-md-block">
+            <a class="navbar-brand head_viajeschile d-md-block">
             <i class="fa-solid fa-plane-departure"></i>
             getaways
             </a>
@@ -33,7 +33,7 @@
                      <a class="nav-link" href="#">Destinos</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#">ofertas</a>
+                     <a class="nav-link" href="#">Ofertas</a>
                   </li>
                </ul>
                <button class="btn btn-outline-light btn-sm" type="submit">Buscar</button>
@@ -96,7 +96,7 @@
                   </div>
                </div>
                <div class="button d-flex justify-content-center">
-                  <button type="button" class="btn btn-outline-light">Buscar experiencias</button>
+                  <button type="button" class="btn btn-outline-light"  data-bs-toggle="modal" data-bs-target="#ModalExperiencia">Buscar experiencias</button>
                </div>
             </div>
             <!--descansar-->
@@ -111,7 +111,7 @@
                   </div>
                </div>
                <div class="button d-flex justify-content-center">
-                  <button type="button" class="btn btn-outline-light">Buscar experiencias</button>
+                  <button type="button" class="btn btn-outline-light"  data-bs-toggle="modal" data-bs-target="#ModalExperiencia">Buscar experiencias</button>
                </div>
             </div>
             <!--party-->
@@ -126,7 +126,7 @@
                   </div>
                </div>
                <div class="button d-flex justify-content-center">
-                  <button type="button" class="btn btn-outline-light">Buscar experiencias</button>
+                  <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#ModalExperiencia">Buscar experiencias</button>
                </div>
             </div>
          </div>
@@ -184,8 +184,8 @@
                      </label>
                   </div>
                </div>
-               <div class="col-12">
-                  <button type="submit" class="btn btn-light">Suscríbeme!</button>
+               <div class="col-12 d-flex justify-content-center align-items-center" >
+                  <button type="submit" class="btn btn-primary">Suscríbeme!</button>
                </div>
          </div>
          </form>
@@ -193,6 +193,24 @@
       <section>
          
       </section>
+      
+      <!--modal-->
+      <div class="modal fade" id="ModalExperiencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h1 class="modal-title fs-5">Pronto más información.</h1>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+               Estamos buscando las mejores ubicaciones para que disfrutes tu miserable vida al máximo.
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+             </div>
+           </div>
+         </div>
+       </div>
       <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
       <script src="assets/js/index.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
