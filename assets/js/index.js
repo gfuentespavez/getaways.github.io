@@ -16,9 +16,10 @@ $(document).ready(function() {
 });
 
 const navbar = document.querySelector('.navbar');
+const delay = 100;
 
 window.addEventListener('scroll', function() {
-  if (window.scrollY > 0) {
+  if (window.scrollY > delay) {
     navbar.classList.add('solid-bg'); // Add solid-bg class when scrolled
   } else {
     navbar.classList.remove('solid-bg'); // Remove solid-bg class when at top
