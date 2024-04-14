@@ -20,8 +20,8 @@ const delay = 100;
 
 window.addEventListener('scroll', function() {
   if (window.scrollY > delay) {
-    navbar.classList.add('solid-bg'); // Add solid-bg class when scrolled
+    navbar.classList.add('solid-bg');
   } else {
-    navbar.classList.remove('solid-bg'); // Remove solid-bg class when at top
+    navbar.classList.remove('solid-bg');
   }
 });

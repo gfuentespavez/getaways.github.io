@@ -67,3 +67,27 @@
     font-size: 30px;
   }
 }
+.footer i {
+  font-size: 50px;
+}
+.footer {
+  background-color: #25282a;
+}
+.footer p {
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.ml-2 {
+  margin-left: 1rem;
+  background-color: #25282a;
+font-size: smaller;
+}
+.rights p {
+  font-family: "tablet-gothic", sans-serif;
+  font-size: small;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+
+}
